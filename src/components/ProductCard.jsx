@@ -73,7 +73,7 @@ const ProductCard = ({ product }) => {
 
       {/* mobile view */}
       <div className="md:hidden flex flex-col justify-center items-center p-2 relative">
-        <div className="w-3/4 h-1/2 bg-gray-300 rounded-lg shadow-2xl flex flex-col justify-center items-center p-2 ">
+        <div className="w-3/4 h-1/2 rounded-lg shadow-2xl flex flex-col justify-center items-center p-2 bg-white ">
           <div className="w-40 h-40">
             <img
               src={product.image}
